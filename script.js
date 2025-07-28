@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <div><span class="popup-titulo">Días en el cargo:</span> <span class="popup-construccion">${diasCargo}</span></div>
           <div class="popup-etiqueta"><b>Municipio:</b> ${municipio}</div>
           <div class="popup-etiqueta"><b>Alcalde:</b> ${alcalde}</div>
-          <div class="popup-etiqueta"><b>Legislaturas en el cargo:</b> ${legislaturas}</div>
+          <div class="popup-etiqueta"><b>Mandatos en el cargo:</b> ${legislaturas}</div>
         </div>
       `;
 
