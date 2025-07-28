@@ -24,24 +24,19 @@ document.addEventListener("DOMContentLoaded", function () {
       paint: {
         'fill-color': [
           'case',
-          ['==', ['get', 'total_dias'], null], '#e8f9f7',
-          ['<', ['to-number', ['get', 'total_dias']], 0], '#AFF8E6',
-          ['<', ['to-number', ['get', 'total_dias']], 1460], '#3BF5C4',
-          ['<', ['to-number', ['get', 'total_dias']], 2920], '#01DDA3',
-          ['<', ['to-number', ['get', 'total_dias']], 4380], '#01DDA3',
-          ['<', ['to-number', ['get', 'total_dias']], 5840], '#01D39C',
-          ['<', ['to-number', ['get', 'total_dias']], 7300], '#01CE98',
-          ['<', ['to-number', ['get', 'total_dias']], 8760], '#01C994',
-          ['<', ['to-number', ['get', 'total_dias']], 10220], '#01B787',
-          ['<', ['to-number', ['get', 'total_dias']], 11680], '#01A67B',
-          ['<', ['to-number', ['get', 'total_dias']], 13140], '#01B787',
-          ['<', ['to-number', ['get', 'total_dias']], 14600], '#019770',
-          ['<', ['to-number', ['get', 'total_dias']], 16060], '#018966',
-          ['<', ['to-number', ['get', 'total_dias']], 17520], '#005540',
+        ['==', ['get', 'total_dias'], null], '#e8f9f7',
+          ['<', ['to-number', ['get', 'total_dias']], 768], '#DFF5DC',
+          ['<', ['to-number', ['get', 'total_dias']], 1000], '#D5F5DB',
+          ['<', ['to-number', ['get', 'total_dias']], 1500], '#B6F0CE',
+          ['<', ['to-number', ['get', 'total_dias']], 2000], '#7CF8C4',
+          ['<', ['to-number', ['get', 'total_dias']], 2500], '#47F5B9',
+          ['<', ['to-number', ['get', 'total_dias']], 3692], '#01f3b3',
+          ['<', ['to-number', ['get', 'total_dias']], 5840], '#00DEA3',
+          ['<', ['to-number', ['get', 'total_dias']], 16887], '#02B382',
           '#e8f9f7'
         ],
         'fill-opacity': 1,
-        'fill-outline-color': '#494949'
+        'fill-outline-color': '#DBDBDB'
       }
     });
 
